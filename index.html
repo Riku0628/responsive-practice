@@ -8,16 +8,56 @@
   <title>Responsive</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <h2 class="question--title">Q7 サイズ変更</h2>
-  <h2 class="question--title">Q2 色変更</h2>
-  <h2 class="question--title">Q3 margin値の変更</h2>
-  <h2 class="question--title">Q4 floatの解除</h2>
-  <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
-  <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
-  <h2 class="question--title">Q7 要素の表示・非表示</h2>
+  <div class="wrapper">
+    <h2 class="question--title">Q7 サイズ変更</h2>
+    <div class="red-box-size"></div>
+    <h2 class="question--title">Q2 色変更</h2>
+    <div class="red-box-color box-base"></div>
+    <h2 class="question--title">Q3 margin値の変更</h2>
+    <div class="q-3">
+      <div class="blue-box box-base"></div>
+      <div class="green-box box-base"></div>
+    </div>
+    <h2 class="question--title">Q4 floatの解除</h2>
+    <div class="q-4 clearfix">
+      <div class="red-box-float box-base"></div>
+      <div class="blue-box-float box-base"></div>
+    </div>
+    <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
+      <div class="q-5">
+        <div class="red-box-order box-base">
+          <p>A</p>
+        </div>
+        <div class="blue-box-order box-base">
+          <p>B</p>
+        </div>
+        <div class="orange-box-order box-base">
+          <p>C</p>
+        </div>
+      </div>
+    <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
+    <div class="q-6">
+      <div class="green-change box-base">
+        <p>A</p>
+      </div>
+      <div class="yellow-change box-base">
+        <p>B</p>
+      </div>
+      <div class="pink-change box-base">
+        <p>C</p>
+      </div>
+    </div>
+    <h2 class="question--title">Q7 要素の表示・非表示</h2>
+    <div class="q-6">
+      <div class="blue-box-display box-base"></div>
+      <div class="red-box-display box-base"></div>
+      <div class="green-box-display box-base"></div>
+    </div>
+  </div>
 </body>
 
 </html>
